@@ -1,0 +1,48 @@
+.baseButton {
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 7px 35px;
+  filter: drop-shadow(0 6px 27.8px rgba(21, 158, 117, 0.2));
+  border: 0;
+  color: #F5F5F5;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.primary {
+  background: linear-gradient(90deg, #1D5DAC, #3A8EF6);
+
+  &:hover {
+    opacity: 0.8;
+  }
+ 
+  &.disabled {
+    background: $cl-button-disabled-bg;
+  }
+}
+
+.outline {
+  @extend %button-primary-text;
+  background: transparent;
+  color: $cl-txt-header;
+  border: 1px solid $cl-txt-header;
+  border-radius: 90px;
+
+  &:hover {
+    background: $cl-button-hover-bg;
+    color: #FFFFFF;
+  }
+ 
+  &.disabled {
+    background: $cl-button-disabled-bg;
+  }
+
+  &.outline path {
+    stroke: #3A8EF6;
+  }
+
+  &.outline:hover path {
+    stroke: #FFFFFF;
+  }
+}

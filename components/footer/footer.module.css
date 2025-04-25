@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.footer a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
