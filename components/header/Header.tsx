@@ -5,7 +5,7 @@ export const Header = () => {
 
   return (
     <header className={s.header}>
-      <h2>Some Company</h2>
+      <h1>Some Company</h1>
       <Button
         name="Contact us"
         theme="primary"

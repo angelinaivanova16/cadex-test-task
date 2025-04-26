@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  gap: 8px;
+  height: 450px;
+  margin: 0 20px 30px 20px;
+}
+
+.imageContainer {
+  position: relative;
+  flex: 1;
+  background: center/cover no-repeat;
+  transition: flex 1.5s;
+}
+
+.imageContainer:hover {
+  flex: 15;
+}
+
+@media (max-width: 850px) {
+  .container{
+    flex-direction: column;
+  }
+}

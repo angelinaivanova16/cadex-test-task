@@ -9,7 +9,7 @@ export const About = () => {
   return (
     <section className={s.about}>
       <div className={s.text}>
-        <h1 className={s.title}>Most important title on the page</h1>
+        <h2 className={s.title}>Most important title on the page</h2>
         <p className={s.description}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, leo et condimentum ultricies, sem urna convallis metus, vel suscipit nibh lacus tincidunt ante
         </p>

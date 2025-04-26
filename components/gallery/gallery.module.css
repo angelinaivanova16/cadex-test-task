@@ -1,0 +1,19 @@
+.gallery {
+  background: #E5EEFF;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #3A8EF6;
+}
+
+.title {
+  max-width: 35%;
+  margin: 20px auto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 58px;
+  color: #2a3549;
+}

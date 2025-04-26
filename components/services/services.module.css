@@ -1,0 +1,32 @@
+.title {
+  max-width: 50%;
+  margin: 20px auto;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 58px;
+  color: #2a3549;
+}
+
+.cardList {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 25px;
+  margin-bottom: 30px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+  }
+}
