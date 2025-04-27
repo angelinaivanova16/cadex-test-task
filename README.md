@@ -1,7 +1,7 @@
 # Cadex-test-task
 (Веб-сайт, включающий главную страницу, страницу контактов с формой и базовый бэкэнд для обработки отправки форм.)
 
-- Deploy: https://angelinaivanova16.github.io/collection-of-recipes-react/
+- Deploy: cadex-test-task-tau.vercel.app
 ---
 ## Основной функционал:
 - На главной странице в первом разделе встроенное видео YouTube.
