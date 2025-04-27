@@ -1,4 +1,4 @@
-import s from './services.module.css';
+import s from './services.module.scss';
 import { Button, Card } from '@/components';
 import { servicesItems } from './servicesItems';
 

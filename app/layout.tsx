@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
-import "./globals.css";
+import "./globals.scss";
 import { Header, Footer, FloatingCallButton } from '@/components';
 
 
