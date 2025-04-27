@@ -39,9 +39,25 @@
   font-size: 18px;
   font-weight: 500;
   background: linear-gradient(90deg, #1D5DAC, #3A8EF6);
-  
+
   &:hover {
     box-shadow: 0 4px 15px rgba(0, 86, 179, 0.5);
     transform: scale(1.02);
   }
+}
+
+.input:hover {
+  border-color: #3A8EF6;
+  box-shadow: 0 4px 15px rgba(0, 86, 179, 0.5);
+}
+
+.responseMessage {
+  height: calc(100vh - 260px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 46px;
+  font-weight: 800;
+  line-height: 58px;
+  color: #2a3549;
 }
