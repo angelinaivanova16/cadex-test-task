@@ -1,5 +1,5 @@
 import { Button, Photos } from '@/components';
-import s from './gallery.module.css';
+import s from './gallery.module.scss';
 
 export const Gallery = () => {
 

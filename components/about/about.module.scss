@@ -1,27 +1,47 @@
+@import '@/styles/mixins.scss';
+
 .about {
   display: flex;
   justify-content: space-between;
   padding: 30px;
   background: #E5EEFF;
   color: #2a3549;
+
+  @include respond-to(small) {
+    flex-direction: column;
+  }
 }
 
 .text {
   width: 40%;
+  @include respond-to(small) {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
 
 .video {
   width: 45%;
+
+  @include respond-to(small) {
+    width: 100%;
+  }
 }
 
 .title {
+  text-align: center;
   font-size: 46px;
   font-weight: 800;
-  line-height: 58px;
+  line-height: 42px;
   margin-bottom: 12px;
+
+  @include respond-to(small) {
+    font-size: 28px;
+  }
 }
 
 .description {
+  text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 32px;

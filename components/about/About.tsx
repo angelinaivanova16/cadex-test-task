@@ -1,6 +1,6 @@
 'use client';
 
-import s from './about.module.css';
+import s from './about.module.scss';
 import dynamic from 'next/dynamic';
 const ReactPlayer = dynamic(() => import('react-player/youtube'), { ssr: false });
 

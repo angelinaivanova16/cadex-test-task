@@ -1,6 +1,6 @@
 'use client'
 import { SvgFloatingButton } from "@/components/icons";
-import s from "./floatingCallButton.module.css";
+import s from "./floatingCallButton.module.scss";
 import Link from "next/link";
 
 export const FloatingCallButton = () => {

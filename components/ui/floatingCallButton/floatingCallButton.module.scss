@@ -1,3 +1,5 @@
+@import '@/styles/mixins.scss';
+
 .floatingCallButton {
   position: fixed;
   right: 1.5%;
@@ -6,6 +8,10 @@
   cursor: pointer;
   z-index: 1000;
   transition: 0.3s;
+
+  @include respond-to(small) {
+    display: none;
+  }
 }
 
 .floatingCallButton:hover {

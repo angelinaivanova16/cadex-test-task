@@ -1,3 +1,5 @@
+@import '@/styles/mixins.scss';
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -10,6 +12,11 @@
   color: #3A8EF6;
   border-bottom: 2px solid #3A8EF6;
   padding: 20px;
+
+  @include respond-to(small) {
+    flex-direction: column;
+    gap: 2em;
+  }
 }
 
 .title {
@@ -18,11 +25,5 @@
 
   &:hover{
     text-shadow: 1px 1px 5px rgba(0,123,255,0.5);
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .header {
-    display: block;
   }
 }
