@@ -1,17 +1,15 @@
 'use client'
 import { SvgFloatingButton } from "@/components/icons";
 import s from "./floatingCallButton.module.css";
+import Link from "next/link";
 
 export const FloatingCallButton = () => {
-  const handleClick = () => {
-    // todo: доделать.
-  };
 
   return (
-    <div className={s.floatingCallButton} onClick={handleClick}>
-      <div className={s.container}>
+    <div className={s.floatingCallButton}>
+      <Link className={s.container} href={'/contactUs'}>
         <SvgFloatingButton />
-      </div>
+      </Link>
     </div>
   );
 };

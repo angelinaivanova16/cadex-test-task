@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
-// import 'antd/dist/antd.css';
 import "./globals.css";
 import { Header, Footer, FloatingCallButton } from '@/components';
 
