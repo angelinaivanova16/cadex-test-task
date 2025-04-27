@@ -1,4 +1,6 @@
 .baseButton {
+  display: flex;
+  justify-content: center;
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s;
@@ -14,11 +16,8 @@
   background: linear-gradient(90deg, #1D5DAC, #3A8EF6);
 
   &:hover {
-    opacity: 0.8;
-  }
- 
-  &.disabled {
-    background: $cl-button-disabled-bg;
+    box-shadow: 0 4px 15px rgba(0, 86, 179, 0.5);
+    transform: scale(1.02);
   }
 }
 
@@ -32,17 +31,5 @@
   &:hover {
     background: $cl-button-hover-bg;
     color: #FFFFFF;
-  }
- 
-  &.disabled {
-    background: $cl-button-disabled-bg;
-  }
-
-  &.outline path {
-    stroke: #3A8EF6;
-  }
-
-  &.outline:hover path {
-    stroke: #FFFFFF;
   }
 }

@@ -1,8 +1,10 @@
+import { ContactForm } from "@/components";
+
 export default async function Page() {
 
   return (
     <div>
-    hello
+    <ContactForm />
     </div>
   )
 }

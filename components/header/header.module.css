@@ -13,10 +13,11 @@
 }
 
 .title {
+  transition: color 0.3s ease, text-shadow 0.3s ease;
   cursor: pointer;
 
   &:hover{
-    opacity: 0.8;
+    text-shadow: 1px 1px 5px rgba(0,123,255,0.5);
   }
 }
 
