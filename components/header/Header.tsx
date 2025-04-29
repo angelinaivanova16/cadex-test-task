@@ -6,11 +6,10 @@ export const Header = () => {
 
   return (
     <header className={s.header}>
-      <h1 className={s.title}><Link href='/'>Some Company</Link></h1>
+      <Link className={s.title} href='/'>Some Company</Link>
       <Button
         name="Contact us"
         theme="primary"
-
       />
     </header>
   )

@@ -5,7 +5,7 @@ export const Gallery = () => {
 
   return (
     <section className={s.gallery}>
-      <h3 className={s.title}>Less important title</h3>
+      <h2 className={s.title}>Less important title</h2>
       <Photos />
       <div className={s.btnContainer}>
         <Button

@@ -8,7 +8,7 @@ export const Card = ({
 
   return (
     <div className={s.card}>
-      <h1 className={s.title}>{title}</h1>
+      <h3 className={s.title}>{title}</h3>
       <p className={s.description}>{description}</p>
     </div>
   )
