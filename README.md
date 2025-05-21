@@ -1,4 +1,4 @@
-# Cadex-test-task
+# test-task
 (Веб-сайт, включающий главную страницу, страницу контактов с формой и базовый бэкэнд для обработки отправки форм.)
 
 - Deploy: https://cadex-test-task-tau.vercel.app
